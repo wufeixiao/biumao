@@ -4,7 +4,7 @@
 
 # spider (择一使用👇)
 ## 01.🐼缝合接口
-"spider":"https://gitee.com/hd2019/OneClickRun/raw/master/xpath/custom_spider.jar",
+"spider":"https://cdn.jsdelivr.net/gh/wufeixiao/biumao@master/custom_spider.jar",
 ## 02.🐉明接口
 //"spider":"https://gitee.com/hd2019/OneClickRun/raw/master/xpath/xm.jar",
 ## 03.🐱S接口
