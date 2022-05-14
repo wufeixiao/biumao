@@ -4,7 +4,7 @@
 
 # spider (择一使用👇)
 ## 01.🐼缝合接口
-"spider":"https://cdn.jsdelivr.net/gh/wufeixiao/biumao@master/custom_spider.jar",
+"spider":"https://gitee.com/wuxfei/tv/raw/master/custom_spider.jar",
 ## 02.🐉明接口
 //"spider":"https://cdn.jsdelivr.net/gh/wufeixiao/biumao@master/xm.jar",
 ## 03.🐱S接口
@@ -37,7 +37,7 @@
 {"key":"csp_Fantuan","name":"🐼饭团(SP)","type":3,"api":"csp_Fantuan","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_Qicui","name":"🐼奇粹(SP)","type":3,"api":"csp_Qicui","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_DY1990","name":"🐼90(SP)","type":3,"api":"csp_DY1990","searchable":1,"quickSearch":1,"filterable":0},
-{"key":"csp_xpath_Hdmoli","name":"🐼Hdmoli(XPF)","type":3,"api":"csp_XPathHdmoli","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.jsdelivr.net/gh/wufeixiao/biumao@master/xpathHdmoli.json.json"},
+{"key":"csp_xpath_Hdmoli","name":"🐼Hdmoli(XPF)","type":3,"api":"csp_XPathHdmoli","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.jsdelivr.net/gh/wufeixiao/biumao@master/xpathHdmoli.json"},
 {"key":"csp_xpath_egg","name":"🐼蛋蛋(XPF)","type":3,"api":"csp_XPathEgg","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.jsdelivr.net/gh/YuanHsing/OneClickRun@master/xpath/dandan.json"},
 {"key":"csp_xpath_Gaze","name":"🐼注视(XPF)","type":3,"api":"csp_XPathGaze","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://cdn.jsdelivr.net/gh/YuanHsing/OneClickRun@master/xpath/gaze.json"},
 
