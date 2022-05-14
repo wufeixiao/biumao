@@ -1,7 +1,7 @@
 {
   "ua": "",
   "homeUrl": "https://www.hdmoli.com/",
-
+ 
   "homeVodNode": "//body/div[@class='container']//div[@class='myui-vodlist__box']/a",
   "homeVodName": "/@title",
   "homeVodId": "/@href",
@@ -22,17 +22,17 @@
   "cateVodImg": "/@data-original",
   "cateVodMark": "/span[contains(@class, 'pic-text')]/text()",
 
-  "dtUrl": "https://www.hdmoli.com/{vid}.html",
+  "dtUrl": "https://www.hdmoli.com//movie/{vid}.html",
   "dtNode": "//div[contains(@class,'myui-content__detail')]",
   "dtName": "/h1/text()",
-  "dtImg": "//div[@class='thumb-div']/img/@src",
-  "dtCate": "/p/span[contains(text(), '分类')]/following-sibling::text()/text()",
-  "dtYear": "/p/span[contains(text(), '年份')]/following-sibling::text()/text()",
-  "dtArea": "/p/span[contains(text(), '地区')]/following-sibling::text()/text()",
-  "dtMark": "/p/span[contains(text(), '更新')]/following-sibling::text()/text()",
-  "dtDirector": "/p/span[contains(text(), '导演')]/following-sibling::text()/text()",
-  "dtActor": "/p/span[contains(text(), '演员')]/following-sibling::a/text()/text()",
-  "dtDesc": "//span[@class='desc text-collapse hidden-xs']/text()",
+  "dtImg": "//div[@class='myui-content__thumb']/a/img/@data-original",
+  "dtCate": "/p/span[contains(text(), '分类')]/following-sibling::text()[1]",
+  "dtYear": "/p/span[contains(text(), '年份')]/following-sibling::text()[1]",",
+  "dtArea": "/p/span[contains(text(), '地区')]/following-sibling::text()[1]",
+  "dtMark": "/p/span[contains(text(), '更新')]/following-sibling::text()[1]",
+  "dtDirector": "/p/span[contains(text(), '导演')]/following-sibling::text()",
+  "dtActor": "/p/span[contains(text(), '演员')]/following-sibling::a/text()",
+  "dtDesc": "//p[@class='desc text-collapse hidden-xs']/text()[2]",
 
   "dtFromNode": "//h3[contains(text(), '播放地址')]",
   "dtFromName": "/text()",
@@ -43,7 +43,7 @@
   "dtUrlIdR": "/(.+)",
   "dtUrlName": "/@title",
   "dtUrlNameR": "",
-  "playUrl": "",
+  "playUrl": "https://www.hdmoli.com//play/{playUrl}.html",
   "playUa": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
 
   "searchUrl": "https://www.hdmoli.com/search.php?searchword={wd}",
